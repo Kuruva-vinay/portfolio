@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    font-family: cursive;
+    margin: 0px 1px;
+    color: palevioletred;
+}
+body{
+    background-color: black;
+}
+.navi{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.navi a{
+    text-decoration: none;
+    font-size: 100%;
+}
+.V{
+    color : white;
+    font-size: 2em;
+}
+.navi1 a{
+    font-size: 20px;
+    word-spacing: 5%;
+    letter-spacing: 3px;
+}
+.vi{
+    color: aliceblue;
+}
+
+/* PROFILE */
+.profile{
+    background-image: url("vinay.jpg");
+    color: palevioletred;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    /* padding-bottom: 10px; */
+    line-height: 35px;
+}
+.profile .left img:hover{
+    box-shadow: 2px 5px 10px palevioletred;
+}
+.profile .right{
+    float:right;
+    margin: 5%;
+    width: 50%;
+}
+.profile .right h1,.profile .right3 h1{
+    color: white;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+.profile .right1 p{
+    text-align: justify;
+    border-bottom: 2px dotted palevioletred;
+    padding-top: 5px;
+    padding-bottom: 15px;
+} 
+.tab td{
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: left;
+}
+.profile .right3{
+    border-top: 2px dotted palevioletred;
+}
+/* Education */
+.education h1{
+    margin-left: 5%;
+    color: aliceblue;
+}
+.education table{
+    margin-left:10%;
+    padding-top: 5%;
+    width: 80%;
+}
+.education table tr td{
+    padding: 10px;
+}
+.education table tr td h4,sup{
+    color: white;
+    text-shadow: 3px 1px 1px palevioletred;
+}
+/* THE CONTACT FORM */
+.contact h1{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: aliceblue;
+}
+.contact form input, form textarea{
+    margin-left: 10px;
+    border: 1px solid palevioletred;
+    min-width: 90%;
+    padding: 10px 1px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.contact form button{
+    float:right;
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+}
+.contact form button:hover{
+    background-color: palevioletred;
+    color: white;
+    text-shadow: 3px 1px 2px black;
+}
+.contact form input:focus, form textarea:focus{
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 3px 1px 2px whitesmoke;
+}
+.contact form input::placeholder, form textarea::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.con{
+    padding-top: 15%;
+    margin-left: 32%;
+}
+.con img{
+    border-radius: 35%;
+    width:10%;
+    height: 10%;
+    padding:1%;
+    box-shadow: 1px 2px 5px white;
+}
+.con img:hover{
+    box-shadow: 2px 2px 5px palevioletred;
+}
+.foot p{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+.contact1{
+    margin-left: 5%;
+}
